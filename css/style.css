@@ -17,254 +17,28 @@ body {
     padding: 0;
 }
 
+
 /* ==================================================== */
-/* ================== Header Section ================== */
+/* ========= Bootstrap custom element Section ========= */
 /* ==================================================== */
 
-#main-header {
-    background-color: #000922;
-    color: #f3f3f4;
-    padding: 20px 40px;
-    text-align: center;
+.bg-slightyDarkBlue {
+    background-color:#000922;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.header-links-container {
-    display: flex;
-    align-items: center;
-    width: 400px;
-    height: 50px;
-    justify-content: center;
-}
+/* ==================================================== */
+/* =============== Miscellaneous Section ============== */
+/* ==================================================== */
 
-.header-links {
-    display: flex;
-    list-style-type: none;
-    width: 350px;
-    padding: 0;
-    justify-content: space-around;
-}
-
-.header-links li a {
-    color: white;
-    text-decoration: none;
-}
-
-.header-links li a:hover {
-    color: #afaffb;
-    transition: .3s;
-}
-
-#scores {
+.service-images {
     width: 100px;
     height: 100px;
-}
-
-#news {
-    width: 100px;
-    height: 100px;
-}
-
-#stats {
-    width: 100px;
-    height: 100px;
-}
-
-#highlights {
-    width: 100px;
-    height: 100px;
-}
-
-#schedule {
-    width: 100px;
-    height: 100px;
-}
-
-/* The dropdown container */
-.dropdown {
-    display: none;
-    float: left;
-    overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* ==================================================== */
-/* ================== Home and Others page Section ================== */
-/* ==================================================== */
-
-.main-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.main-content {
-    padding: 20px;
-}
-
-.featured-section {
-    padding: 40px 20px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.featured-intro-to-page {
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.featured-intro-to-page .card {
-    width: 100%;
-    max-width: 900px;
-}
-
-.three-column-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    width: 300px;
-    text-align: center;
-}
-
-.three-column-section .card {
-    width: 200px;
-}
-
-/* ==================================================== */
-/* ================== Service Page Section ================== */
-/* ==================================================== */
-
-.services-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 /* ==================================================== */
 /* ================== Contact page Section ================== */
 /* ==================================================== */
-
-.contact-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-details ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.input,
-.textarea {
-    display: block;
-    width: 80%;
-    padding: 15px 18px;
-    margin-bottom: 20px;
-
-    font-family: inherit;
-    font-style: 1rem;
-    color: #4d4d4d;
-    
-    border: 0;
-    background-color: rgba(36, 36, 36, 0.1);
-    border-radius: 5px;
-}
-
-.textarea {
-    height: 100px;
-    resize: none;
-}
-
-.input::placeholder,
-.textarea::placeholder {
-    color: #000000;
-}
-
-.btn {
-    padding: 15px 30px;
-    background-color: #5e94ba;
-    border: #5e94ba 0.5px solid;
-    color: white;
-    border-radius: 20px;
-    box-shadow: #000000 0px 4px 8px;
-}
-
-.btn:hover {
-    background-color: rgb(9, 136, 179);
-    border-color: rgb(9, 136, 179);
-    box-shadow: #000000 0px 6px 12px;
-    transition: .3s;
-}
 
 /* ==================================================== */
 /* ================== About page Section ================== */
@@ -297,100 +71,11 @@ body {
     margin-left: -2px;
 }
 
-/* Timeline List Reset */
-.timeline-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-/* Individual Item */
-.timeline-item {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    margin-bottom: 30px;
-}
-
-/* Content Box */
-.timeline-content {
-    padding: 20px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.timeline-content h3 {
-    margin-top: 0;
-    color: #5e94ba;
-    font-size: 1.2rem;
-}
-
-.timeline-content p {
-    margin-bottom: 0;
-    line-height: 1.5;
-}
-
 .timeline-date {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
 }
-
-.timeline-title {
-    text-align: center;
-    margin: 20px;
-    margin-top: 50px;
-    padding: 20px;
-}
-
-.goal-title {
-    margin: 20px;
-    margin-top: 50px;
-    padding: 20px;
-}
-
-.goal-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    margin-bottom: 80px;
-}
-
-
-/* ==================================================== */
-/* ================== Footer Section ================== */
-/* ==================================================== */
-
-#main-footer {
-    background-color: #000922;
-    color: white;
-    padding: 40px;
-    text-align: center;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-social {
-    margin-bottom: 10px;
-}
-
-.footer-social a {
-    color: #0ba9dd;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.footer-social a:hover {
-    text-decoration: underline;
-}
-
 
 /* ==================================================== */
 /* ================== Responsive Section ================== */
@@ -455,16 +140,16 @@ body {
 
 @media only screen and (max-width: 376px) {
 
-    .card {
+    /* .card {
         width: 250px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 321px) {
-
+/* 
     .card {
         width: 200px;
-    }
+    } */
 
 }

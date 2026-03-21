@@ -7,89 +7,112 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Services - Sports Page 101</title>
 </head>
 <body>
-    <header id="main-header">
-        <div class="header-container">
-            <div class="header-logo">
-                <p>Sports Page 101</p>
-            </div>
-            <nav class="header-links-container">
-                <ul class="header-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-slightyDarkBlue p-3">
+
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Sports Page 101</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link active" aria-current="page">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    Menu
-                </button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
-                    <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
-    </header>
+    </nav>
 
     <main>
-        <section class="main-container">
-            <div>
-                <h1>Our Services</h1>
-                <div class="introduction-description">
-                    <p>Here you can find information about our services and offerings at Sports Page 101.</p>
-                </div>
+        <section class="py-5">
+            <div class="container">
+                <h1 class="display-4 fw-normal">Our Services</h1>
+                <p class="lead mt-3">Here you can find information about our services and offerings at Sports Page 101.</p>
             </div>
-            <hr>
-            <div class="services-list">
+        </section>
+        <hr class="container my-0">
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-3 col-md-6 my-2">
 
-                <div class="card service-card">
-                    <img src="../images/live-scores.png" alt="Live Scores Icon" id="scores">
-                    <h2>Live Scores</h2>
-                    <p>Stay up to date with real-time scores from your favourite sports leagues and tournaments around the world, all in one place.</p>
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <img src="../images/live-scores.png" alt="Live Scores Icon" class="service-images">
+                                <h2>Live Scores</h2>
+                                <p>Stay up to date with real-time scores from your favourite sports leagues and tournaments around the world, all in one place.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-2">
+                        
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <img src="../images/news.png" alt="Sports News Icon" class="service-images">
+                                <h2>Sports News</h2>
+                                <p>Get the latest breaking news, match previews, post-game analysis, and in-depth articles covering all major sports.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-2">
+
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <img src="../images/stats.jpg" alt="Player Stats Icon" class="service-images">
+                                <h2>Player & Team Stats</h2>
+                                <p>Explore comprehensive statistics for players and teams across multiple sports, updated throughout every season.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-2">
+
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <img src="../images/highlights.png" alt="Highlights Icon" class="service-images">
+                                <h2>Match Highlights</h2>
+                                <p>Never miss a moment — catch up on the best plays, goals, and highlights from recent matches and events.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-2">
+
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <img src="../images/schedule.png" alt="Schedule Icon" class="service-images">
+                                <h2>Event Schedule</h2>
+                                <p>Browse upcoming fixtures, game times, and tournament schedules so you never miss a match that matters to you.</p>
+                        
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="card service-card">
-                    <img src="../images/news.png" alt="Sports News Icon" id="news">
-                    <h2>Sports News</h2>
-                    <p>Get the latest breaking news, match previews, post-game analysis, and in-depth articles covering all major sports.</p>
-                </div>
-
-                <div class="card service-card">
-                    <img src="../images/stats.jpg" alt="Player Stats Icon" id="stats">
-                    <h2>Player & Team Stats</h2>
-                    <p>Explore comprehensive statistics for players and teams across multiple sports, updated throughout every season.</p>
-                </div>
-
-                <div class="card service-card">
-                    <img src="../images/highlights.png" alt="Highlights Icon" id="highlights">
-                    <h2>Match Highlights</h2>
-                    <p>Never miss a moment — catch up on the best plays, goals, and highlights from recent matches and events.</p>
-                </div>
-
-                <div class="card service-card">
-                    <img src="../images/schedule.png" alt="Schedule Icon" id="schedule">
-                    <h2>Event Schedule</h2>
-                    <p>Browse upcoming fixtures, game times, and tournament schedules so you never miss a match that matters to you.</p>
-                </div>
-
             </div>
         </section>
     </main>
-    <footer id="main-footer">
-        <div class="footer-container">
-            <div class="footer-social">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
+    <footer class="bg-slightyDarkBlue text-light py-4">
+        <div class="container text-center">
+            <div class="mb-2">
+                <a href="#" class="text-light me-3 text-decoration-none">Facebook</a>
+                <a href="#" class="text-light me-3 text-decoration-none">Twitter</a>
+                <a href="#" class="text-light me-3 text-decoration-none">Instagram</a>
             </div>
-            <p>&copy; 2026 Sports Page 101. All rights reserved.</p>
+            <p class="mb-0">&copy; 2026 Sports Page 101. All rights reserved.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
