@@ -108,6 +108,12 @@ footer div p.mb-0 {
     border-color: #2a3a5a;
 }
 
+.dark-mode .form-select {
+    background-color: #02195a;
+    color: #f3f3f4;
+    border-color: #2a3a5a;
+}
+
 .dark-mode .form-control::placeholder {
     color: #d9e3ff;
 }
