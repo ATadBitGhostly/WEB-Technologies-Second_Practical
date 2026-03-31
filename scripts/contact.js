@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^(?!.*\.\.)[^\s@._%+-]+@[^\s@.-]+\.[^\s@]+$/;
     return emailRegex.test(email);
   }
 
